@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meu Nome</string>
+    <string name="name">Qual é seu nome?</string>
+    <string name="button">Pronto</string>
+    <string name="response">Resposta</string>
+    <string name="placeholder">Seu nome...</string>
+    <string name="phrase">"Prazer em conhecê-lo, "</string>
+</resources>

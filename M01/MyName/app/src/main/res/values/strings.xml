@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Name</string>
+    <string name="name">What\'s your name?</string>
+    <string name="button">GO</string>
+    <string name="response">Response</string>
+    <string name="placeholder">Your Name...</string>
+    <string name="phrase">Nice to meet you,</string>
+</resources>

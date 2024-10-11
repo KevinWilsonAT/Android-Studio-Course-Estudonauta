@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Escola v1</string>
+    <string name="strR1">1a. Nota</string>
+    <string name="strR2">2a. Nota</string>
+    <string name="strCalc">Calcular</string>
+    <string name="icon">Ícone</string>
+    <string name="strAvg">Média das Notas</string>
+    <string name="strSit">Situação</string>
+    <string name="strZero">0</string>
+    <string name="strSitAp">Aprovado</string>
+    <string name="strSitRt">Recuperação</string>
+    <string name="strSitRep">Reprovado</string>
+    <string name="strStdSit">Insira as notas para ver a média</string>
+    <string name="strMsgAp">Parabéns, você passou!</string>
+    <string name="strMsgRep">Infelizmente você foi reprovado. Tenha mais sorte da próxima vez.</string>
+    <string name="strMsgError">Insira os números</string>
+    <string name="strMsgRt">Tome cuidado, você está de recuperação!</string>
+    <string name="emjSit">O Emoji muda de semblante de acordo com o resultado das notas</string>
+</resources>

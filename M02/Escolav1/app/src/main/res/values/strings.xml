@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">School v1</string>
+    <string name="strR1">1st Rank</string>
+    <string name="strR2">2nd Rank</string>
+    <string name="strCalc">Calculate</string>
+    <string name="icon">Icon</string>
+    <string name="strAvg">Average Rank</string>
+    <string name="strSit">Status</string>
+    <string name="strZero">0</string>
+    <string name="strSitAp">Approved</string>
+    <string name="strSitRt">Retake Test</string>
+    <string name="strSitRep">Reproved</string>
+    <string name="strStdSit">Insert ranks to see the average rank</string>
+    <string name="strMsgAp">Congratulations, you passed!</string>
+    <string name="strMsgRep">Sorry, you has been reproved. Try again next time.</string>
+    <string name="strMsgError">Type the numbers</string>
+    <string name="strMsgRt">Be careful! You will have to retake the test</string>
+    <string name="emjSit">Emoji changes mood according to the Rank results</string>
+</resources>

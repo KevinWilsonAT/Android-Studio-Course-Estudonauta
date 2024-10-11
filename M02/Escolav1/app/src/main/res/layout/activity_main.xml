@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconetopo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layAll"
+        android:layout_width="360dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="TextSizeCheck">
+
+        <LinearLayout
+            android:id="@+id/layData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/etndR1"
+                android:text="@string/strR1" />
+
+            <EditText
+                android:id="@+id/etndR1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                tools:ignore="Autofill,Deprecated" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/etndR2"
+                android:text="@string/strR2" />
+
+            <EditText
+                android:id="@+id/etndR2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                tools:ignore="Autofill" />
+
+            <Button
+                android:id="@+id/btnCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#BD5F5F"
+                android:onClick="calculate"
+                android:soundEffectsEnabled="true"
+                android:text="@string/strCalc"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strAvg" />
+
+            <TextView
+                android:id="@+id/tvAvg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strZero"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strSit" />
+
+            <TextView
+                android:id="@+id/tvSit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strStdSit"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/ivwSit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:contentDescription="@string/emjSit"
+                tools:ignore="ImageContrastCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
